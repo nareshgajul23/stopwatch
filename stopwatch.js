@@ -28,7 +28,7 @@ function stopwatch(){
         displaySec = "0"+ sec.toString();
     }
     else{
-        displaySec = sec;
+       // displaySec = sec;
     }
 
      if(min<10)
@@ -36,7 +36,7 @@ function stopwatch(){
         displayMin = "0"+ min.toString();
     }
     else{
-        displayMin = min;
+        //displayMin = min;
     }
 
      if(hrs<10)
@@ -44,7 +44,7 @@ function stopwatch(){
         displayHrs = "0"+ hrs.toString();
     }
     else{
-        displayHrs = hrs;
+        //displayHrs = hrs;
     }
 
     document.getElementById("display").innerHTML = displayHrs+":"+displayMin+":"+displaySec;
